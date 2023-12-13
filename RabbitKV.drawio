@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T04:18:34.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LFb4QueavGh155YydV9K" version="22.1.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-13T08:27:06.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iew7gja2P-HYzUDSPrCf" version="22.1.8" type="github" pages="7">
   <diagram name="第 1 页" id="HRHzfO-NqE-NCRVmVgGs">
     <mxGraphModel dx="2048" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1387,7 +1387,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UKp8IPMJDknfm-p5n6Xr" name="第 4 页">
-    <mxGraphModel dx="2875" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4096" dy="1450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1929,7 +1929,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="99XlibWJ804Bnu69A8zx" name="第 5 页">
-    <mxGraphModel dx="3398" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5143" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4314,14 +4314,8 @@
         <mxCell id="aMcbVtjWLEjT_B14E2_x-69" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;offset0&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="462.75" y="440.25" width="87.5" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="aMcbVtjWLEjT_B14E2_x-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-401" y="364.75" width="951" height="247.5" as="geometry" />
-        </mxCell>
         <mxCell id="aMcbVtjWLEjT_B14E2_x-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;键值分离存储系统数据查询过程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-28.880000000000003" y="367.5" width="216.75" height="37.5" as="geometry" />
-        </mxCell>
-        <mxCell id="aMcbVtjWLEjT_B14E2_x-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-400.75" y="90" width="951" height="240" as="geometry" />
+          <mxGeometry x="-386.75" y="273.25" width="216.75" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="aMcbVtjWLEjT_B14E2_x-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;传统键值存储系统数据查询过程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-25.000000000000004" y="90" width="216.75" height="37.5" as="geometry" />
