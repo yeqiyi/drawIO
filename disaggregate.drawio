@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T07:53:03.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="N39MqOXR5sJmVHKO362t" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T08:30:19.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="dnMw3xqD9XiUALlpVPRA" version="24.6.4" type="github">
   <diagram name="第 1 页" id="xPfh4IP5ZBfr27BcKs77">
     <mxGraphModel dx="611" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,15 +39,6 @@
         </mxCell>
         <mxCell id="Pok2jLCqyrNNW6y7tCXJ-9" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Y&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="290" y="380" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Pok2jLCqyrNNW6y7tCXJ-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="990" as="sourcePoint" />
-            <mxPoint x="190.5" y="1070" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Pok2jLCqyrNNW6y7tCXJ-14" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;ProxyEngine 调用 getRemoteSegment 从数据节点拉取数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="910" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pok2jLCqyrNNW6y7tCXJ-15" value="&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;;&quot;&gt;比对QueryCid和缓存数据&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;;&quot;&gt;的Cid是否一致，验证缓存数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; background-color: initial;&quot;&gt;有效性&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="490" width="200" height="70" as="geometry" />
