@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T06:44:33.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ZHtOfCIma7MD6-y9GOTW" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T06:21:54.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7qQSrr7dxphZap3OqsQc" version="24.6.4" type="github">
   <diagram name="第 1 页" id="xPfh4IP5ZBfr27BcKs77">
     <mxGraphModel dx="2446" dy="3284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -914,16 +914,6 @@
             <mxPoint x="-780" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F8ZwIBnCLjXQsTqdVoDT-19" target="F8ZwIBnCLjXQsTqdVoDT-40">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-930" y="-190" as="sourcePoint" />
-            <mxPoint x="-940" y="220" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-940" y="-245" />
-              <mxPoint x="-940" y="205" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="F8ZwIBnCLjXQsTqdVoDT-40" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;使用索引根据&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;filters 过滤数据，并返回结果&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-832" y="180" width="113" height="50" as="geometry" />
         </mxCell>
@@ -931,6 +921,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-778.5" y="130" as="sourcePoint" />
             <mxPoint x="-778" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-43" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;比对缓存数据&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Comic Sans MS&amp;quot;; background-color: initial;&quot;&gt;PKVersionID、&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;最大Cid是否一致&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1067" y="-141" width="151" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="F8ZwIBnCLjXQsTqdVoDT-19" target="F8ZwIBnCLjXQsTqdVoDT-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1020" y="-230" as="sourcePoint" />
+            <mxPoint x="-880" y="-186" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-991" y="-245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-47" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;比对结果一致&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="-50" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="F8ZwIBnCLjXQsTqdVoDT-43" target="F8ZwIBnCLjXQsTqdVoDT-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-970" y="-65" as="sourcePoint" />
+            <mxPoint x="-880" y="35" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-991" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-50" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;将缓存列数据标记为 Invalid（驱逐）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-916.9999999999995" y="-101" as="sourcePoint" />
+            <mxPoint x="-890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-890" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-52" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;比对结果不一致&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-926" y="-141" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-850" y="24.439999999999998" as="sourcePoint" />
+            <mxPoint x="-830" y="24" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
