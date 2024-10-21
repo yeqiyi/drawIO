@@ -862,7 +862,7 @@
         <mxCell id="F8ZwIBnCLjXQsTqdVoDT-26" value="&lt;font&gt;从数据节点中获取缺失的列数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-589" y="-200" width="104" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-27" value="&lt;font&gt;比对缓存数据和从数据节点&lt;/font&gt;&lt;div&gt;&lt;font&gt;拉取数据的主键引擎版本ID、&lt;/font&gt;&lt;div&gt;&lt;font&gt;数据版本号&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-27" value="&lt;font&gt;比对缓存数据和从数据节点&lt;/font&gt;&lt;div&gt;&lt;font&gt;拉取数据的主键引擎版本ID、&lt;/font&gt;&lt;div&gt;&lt;font&gt;数据Cid&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-646" y="-120" width="218" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F8ZwIBnCLjXQsTqdVoDT-28" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontStyle=1" parent="1" edge="1">
@@ -923,7 +923,7 @@
             <mxPoint x="-778" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-43" value="&lt;font&gt;比对缓存数据主键引擎版本ID&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;、数据版本号&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否一致&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="F8ZwIBnCLjXQsTqdVoDT-43" value="&lt;font&gt;比对缓存数据主键引擎版本ID&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;、数据Cid&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;是否一致&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1067" y="-141" width="151" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F8ZwIBnCLjXQsTqdVoDT-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontStyle=1" parent="1" source="F8ZwIBnCLjXQsTqdVoDT-19" target="F8ZwIBnCLjXQsTqdVoDT-43" edge="1">
