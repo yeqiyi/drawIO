@@ -1126,6 +1126,16 @@
         <mxCell id="PDrPygGYJL0cy0IJQZ06-102" value="Background Worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="822.5" y="109" width="125" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="PDrPygGYJL0cy0IJQZ06-103" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.54;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PDrPygGYJL0cy0IJQZ06-47" target="PDrPygGYJL0cy0IJQZ06-42">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="590" as="sourcePoint" />
+            <mxPoint x="230" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="620" />
+              <mxPoint x="218" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
