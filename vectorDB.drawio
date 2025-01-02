@@ -847,10 +847,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2180" y="170" width="480" height="390" as="geometry" />
+          <mxGeometry x="-2180" y="180" width="480" height="390" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-2" value="TSDB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1970" y="182.45000000000002" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1970" y="190.00000000000003" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-3" value="数据去重&lt;div&gt;Keep First、Keep All、Keep Last&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-2150" y="230" width="200" height="42.45" as="geometry" />
@@ -865,22 +865,28 @@
           <mxGeometry x="-2150" y="353.78" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-7" value="IOT ANY类型数据存储&amp;amp;计算" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1929.6" y="353.78" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-2150" y="489.99999999999994" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-8" value="最新值缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="417.55" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1929.6" y="490" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-9" value="向量索引" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="481.28" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1929.6" y="353.78" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-10" value="文本索引" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1929.6" y="481.28" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1929.6" y="413.78" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-11" value="顶层 Level File 合并" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-1929.6" y="420" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-2150" y="413.77000000000004" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-12" value="列级数据压缩" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1929.6" y="290" width="200" height="42.45" as="geometry" />
+        </mxCell>
+        <mxCell id="F5e3FwTb33xufMS519yr-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2160" y="465" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5e3FwTb33xufMS519yr-14" value="点位管理引擎" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1980" y="460" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
