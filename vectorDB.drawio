@@ -847,43 +847,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2180" y="180" width="480" height="420" as="geometry" />
+          <mxGeometry x="-2180" y="170" width="480" height="450" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-2" value="TSDB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1970" y="190.00000000000003" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1970" y="182.45000000000002" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-3" value="数据去重&lt;div&gt;Keep First, Keep All, Keep Last&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2150" y="230" width="200" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="F5e3FwTb33xufMS519yr-4" value="高基数降维&lt;div&gt;Sort Mapping Functino&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="345.09999999999997" width="200" height="42.45" as="geometry" />
+        <mxCell id="F5e3FwTb33xufMS519yr-4" value="高基数降维&lt;div&gt;Sort Mapping Function&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="413.78" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-5" value="内存缓冲区异步排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="290" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1929.6" y="290" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-6" value="数据软删除" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1929.6" y="345.09999999999997" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1930.3999999999999" y="480" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-7" value="点位管理 IOT ANY 类型数据存储 &amp;amp; 计算" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="530" width="420" height="42.45" as="geometry" />
+          <mxGeometry x="-1930" y="540" width="199.6" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="F5e3FwTb33xufMS519yr-8" value="最新值缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="468.78000000000003" width="200.4" height="42.45" as="geometry" />
-        </mxCell>
-        <mxCell id="F5e3FwTb33xufMS519yr-9" value="向量索引" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="407.54999999999995" width="200" height="42.45" as="geometry" />
-        </mxCell>
-        <mxCell id="F5e3FwTb33xufMS519yr-10" value="文本索引" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="468.7799999999999" width="200" height="42.45" as="geometry" />
+        <mxCell id="F5e3FwTb33xufMS519yr-8" value="点位数据最新值缓存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="540" width="200.4" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-11" value="顶层 Level File 合并" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2150" y="405.1" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-2150" y="477.55" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-12" value="列级数据压缩&lt;div&gt;LZ4, zstd, Delta, chimp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1929.6" y="290" width="200" height="42.45" as="geometry" />
+          <mxGeometry x="-1929.6" y="413.78" width="200" height="42.45" as="geometry" />
         </mxCell>
         <mxCell id="F5e3FwTb33xufMS519yr-15" value="分级存储" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1929.6" y="230.00000000000003" width="200" height="42.45" as="geometry" />
+        </mxCell>
+        <mxCell id="aswqhp5CCEXfXObl1_8f-1" value="快照隔离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="290" width="200" height="42.45" as="geometry" />
+        </mxCell>
+        <mxCell id="aswqhp5CCEXfXObl1_8f-2" value="在线数据恢复" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCCCCC;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2150" y="350" width="200" height="42.45" as="geometry" />
+        </mxCell>
+        <mxCell id="aswqhp5CCEXfXObl1_8f-5" value="Redo Log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1929.6" y="350" width="200" height="42.45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
