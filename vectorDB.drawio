@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11" pages="10">
   <diagram name="第 1 页" id="8VU_JW2jNcm3ODKiE2Rf">
-    <mxGraphModel dx="4607" dy="2527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5934" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -910,16 +910,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--7" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Subscribing&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2601" y="-550" width="120" height="42.4" as="geometry" />
+          <mxGeometry x="-2481" y="-550" width="120" height="42.4" as="geometry" />
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--8" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2500" y="-650" as="sourcePoint" />
             <mxPoint x="-2560" y="-550" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="6rFH33Wanw-t7g3gl-N--9" value="Success" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-2560" y="-614.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -928,10 +925,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--11" value="Fail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="-2470" y="-614" width="60" height="30" as="geometry" />
+          <mxGeometry x="-2560" y="-614" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Error&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2470" y="-550" width="120" height="42.4" as="geometry" />
+          <mxGeometry x="-2620" y="-550" width="120" height="42.4" as="geometry" />
         </mxCell>
         <mxCell id="6rFH33Wanw-t7g3gl-N--18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1280,26 +1277,35 @@
         <mxCell id="-iey2fPyzP-nzBrwW1V7-89" value="&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Update FSM&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontColor=#FF3333;fillColor=default;" parent="-iey2fPyzP-nzBrwW1V7-81" vertex="1">
           <mxGeometry x="38" y="75.68" width="147.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2170" y="680" width="470" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-2" value="DolphinDB存算分离" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-2" value="DolphinDB存算分离" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-2034.6" y="686.25" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-4" value="分布式 SQL 执行引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-4" value="分布式 SQL 执行引擎" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9C4EB;strokeColor=#000000;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2149.6" y="723.77" width="209.6" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-6" value="代理存储引擎&lt;div&gt;TSDB、OLAP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-6" value="代理存储引擎&lt;div&gt;TSDB、OLAP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2150.2" y="823.7700000000001" width="430.4" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-15" value="计算组资源隔离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-15" value="计算组资源隔离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1931" y="723" width="210.4" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-16" value="查询调度模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-16" value="查询调度模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2149.6" y="773.23" width="209.6" height="42.45" as="geometry" />
         </mxCell>
-        <mxCell id="tfIvhyiQbi3HeRBO5Gww-17" value="多级缓存管理模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="tfIvhyiQbi3HeRBO5Gww-17" value="多级缓存管理模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9999FF;strokeColor=#000000;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1931" y="773.23" width="209.6" height="42.45" as="geometry" />
+        </mxCell>
+        <mxCell id="6rFH33Wanw-t7g3gl-N--9" value="Success" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="-2470" y="-614" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9kkkfiC9sbfmczbkgT6T-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6rFH33Wanw-t7g3gl-N--12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2570" y="-584" as="sourcePoint" />
+            <mxPoint x="-2651" y="-607" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
